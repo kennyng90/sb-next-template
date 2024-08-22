@@ -10,12 +10,12 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "target": "ES6",
     "jsx": "preserve",
     "paths": {
       "@/*": ["./src/*"]
-    },
-    "outDir": "../dist"
+    }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist", "**/*.stories.ts"]
 }

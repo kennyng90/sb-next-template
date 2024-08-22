@@ -16,7 +16,7 @@ export interface ButtonProps {
  */
 export const Button = ({ label, ...props }: ButtonProps) => {
   return (
-    <button className='rounded py-2 px-3 bg-blue-600 text-white' {...props}>
+    <button className='rounded py-2 px-3 bg-gray-600 text-white' {...props}>
       {label}
     </button>
   );
