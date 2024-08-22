@@ -11,7 +11,9 @@
     "build-sb": "storybook build"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
     "next": "14.2.5",
+    "postcss": "^8.4.41",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -32,6 +34,7 @@
     "eslint-config-next": "14.2.5",
     "eslint-plugin-storybook": "^0.8.0",
     "storybook": "^8.2.9",
+    "tailwindcss": "^3.4.10",
     "tsup": "^8.2.4",
     "typescript": "^5"
   }
